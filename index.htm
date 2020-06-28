@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content='width=device-width'>
+	<title>Joystick control test</title>
+	<style>
+		* {margin: 0px; padding: 0px; background: #222;}
+		#menu {background: #222; color: #fff; position: relative; width: 720px; height: 480px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+		.btn {background: #00ACFF; color: #fff; width: 100px; padding: 1em; font-size: 12px; font-family: Monospace; text-align: center; margin: 1em;}
+	</style>
+</head>
+<body>
+	<section id='main'>
+		<div id='menu'>
+			<div class='btn' onclick='play()'>Play</div>
+			<div class='btn'>Option</div>
+			<div class='btn'>About</div>
+		</div>
+		<div id='gameArea'>
+			
+		</div>
+	</section>
+	
+	<script src='player.js'></script>
+	<script src='joystick.js'></script>
+	<script src='ball.js'></script>
+	<script src='game.js'></script>
+	<script src='menu.js'></script>
+</body>
+</html>
